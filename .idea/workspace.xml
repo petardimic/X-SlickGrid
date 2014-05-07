@@ -1,0 +1,936 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="af8b17d1-8ce5-467e-a4aa-d87b3dbc94e2" name="Default" comment="Merge branch '2.0-frozenRowsAndColumns' into frozen-columns&#10;&#10;Conflicts:&#10;&#9;controls/slick.columnpicker.css&#10;&#9;controls/slick.columnpicker.js&#10;&#9;css/smoothness/jquery-ui-1.8.16.custom.css&#10;&#9;examples/examples.css&#10;&#9;examples/index.html&#10;&#9;plugins/slick.cellrangedecorator.js&#10;&#9;plugins/slick.cellrangeselector.js&#10;&#9;plugins/slick.rowmovemanager.js&#10;&#9;slick-default-theme.css&#10;&#9;slick.dataview.js&#10;&#9;slick.grid.css&#10;&#9;slick.grid.js&#10;&#9;tests/grid/grid.js&#10;&#9;tests/grid/index.html&#10;&#9;tests/scrolling benchmarks.html&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/images/actions.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/images/ajax-loader-small.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/images/arrow_redo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/images/arrow_right_peppermint.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/images/arrow_right_spearmint.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/images/arrow_undo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/images/bullet_blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/images/bullet_star.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/images/bullet_toggle_minus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/images/bullet_toggle_plus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/images/calendar.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/images/collapse.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/images/comment_yellow.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/images/down.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/images/drag-handle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/images/editor-helper-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/images/expand.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/images/header-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/images/header-columns-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/images/header-columns-over-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/images/help.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/images/info.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/images/listview.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/images/pencil.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/images/row-over-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/images/sort-asc.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/images/sort-asc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/images/sort-desc.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/images/sort-desc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/images/stripes.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/images/tag_red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/images/tick.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/css/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/css/smoothness/images/ui-bg_flat_75_ffffff_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/css/smoothness/images/ui-bg_glass_55_fbf9ee_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/css/smoothness/images/ui-bg_glass_65_ffffff_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/css/smoothness/images/ui-bg_glass_75_dadada_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/css/smoothness/images/ui-bg_glass_75_e6e6e6_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/css/smoothness/images/ui-bg_glass_95_fef1ec_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/css/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/css/smoothness/images/ui-icons_222222_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/css/smoothness/images/ui-icons_2e83ff_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/css/smoothness/images/ui-icons_454545_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/css/smoothness/images/ui-icons_888888_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/css/smoothness/images/ui-icons_cd0a0a_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/images/user_identity.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/images/user_identity_plus.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/MIT-LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/tests/plugins/autotooltips.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/tests/plugins/autotooltips.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/tests/dataview/dataview.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/examples/example-autotooltips.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/examples/example-checkbox-row-select.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/examples/example-colspan.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/examples/example-composite-editor-item-details.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/examples/example-custom-column-value-extractor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/examples/example-explicit-initialization.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/examples/example-footer-row.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/examples/example-frozen-columns-and-rows-spreadsheet.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/examples/example-frozen-columns-and-rows.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/examples/example-frozen-columns-autoheight.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/examples/example-frozen-columns-tabs.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/examples/example-frozen-columns.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/examples/example-frozen-row-reordering.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/examples/example-frozen-rows.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/examples/example-group-header.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/examples/example-grouping.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/examples/example-header-row.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/examples/example-multi-column-sort.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/examples/example-optimizing-dataview.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/examples/example-plugin-headerbuttons.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/examples/example-plugin-headermenu.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/examples/example-scroll-during-row-reorder.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/examples/example-spreadsheet.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/examples/example-totals-via-data-provider.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/examples/example1-simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/examples/example10-async-post-render.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/examples/example11-autoheight.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/examples/example12-fillbrowser.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/examples/example13-getItem-sorting.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/examples/example14-highlighting.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/examples/example2-formatters.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/examples/example3-editing.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/examples/example3a-compound-editors.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/examples/example3b-editing-with-undo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/examples/example4-model.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/examples/example5-collapsing.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/examples/example6-ajax-loading.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/examples/example7-events.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/examples/example8-alternative-display.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/examples/example9-row-reordering.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/examples/examples.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/lib/firebugx.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/tests/grid/grid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/examples/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/tests/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/tests/dataview/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/tests/grid/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/tests/init benchmark.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/lib/jquery-1.7.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/css/smoothness/jquery-ui-1.8.24.custom.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/lib/jquery-ui-1.8.24.custom.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/lib/jquery.event.drag-2.2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/lib/jquery.event.drop-2.2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/lib/jquery.jsonp-2.4.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/lib/jquery.mousewheel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/lib/jquery.simulate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/lib/jquery.sparkline.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/tests/model benchmarks.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/lib/qunit.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/lib/qunit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/tests/scrolling benchmark raf.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/tests/scrolling benchmarks.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/slick-default-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/plugins/slick.autotooltips.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/plugins/slick.cellcopymanager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/plugins/slick.cellrangedecorator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/plugins/slick.cellrangeselector.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/plugins/slick.cellselectionmodel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/plugins/slick.checkboxselectcolumn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/controls/slick.columnpicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/controls/slick.columnpicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/examples/slick.compositeeditor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/slick.core.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/slick.dataview.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/slick.editors.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/slick.formatters.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/slick.grid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/slick.grid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/slick.groupitemmetadataprovider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/plugins/slick.headerbuttons.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/plugins/slick.headerbuttons.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/plugins/slick.headermenu.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/plugins/slick.headermenu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/controls/slick.pager.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/controls/slick.pager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/slick.remotemodel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/plugins/slick.rowmovemanager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveDemo/plugins/slick.rowselectionmodel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+    </list>
+    <ignored path="SlickGrid.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any converted="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <breakpoint_rules converted="true" />
+    <ui_properties converted="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="SlickGrid" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javascripts/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.70394737" vertical-offset="288" max-vertical-offset="2190">
+              <caret line="62" column="127" selection-start-line="62" selection-start-column="127" selection-end-line="62" selection-end-column="127" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="slick.pager.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/liveDemo/controls/slick.pager.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2400">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1399461046000" expanded="false" signature="2201:2213" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="true" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/examples/index.html" />
+        <option value="$PROJECT_DIR$/examples/teste.js" />
+        <option value="$PROJECT_DIR$/slick.groupitemmetadataprovider.js" />
+        <option value="$PROJECT_DIR$/examples/prototipo-compra-venda.html" />
+        <option value="$PROJECT_DIR$/slick.grid.css" />
+        <option value="$PROJECT_DIR$/controls/slick.columnpicker.css" />
+        <option value="$PROJECT_DIR$/slick-default-theme.css" />
+        <option value="$PROJECT_DIR$/controls/slick.columnpicker.js" />
+        <option value="$PROJECT_DIR$/examples/example-footer-row.html" />
+        <option value="$PROJECT_DIR$/tests/grid/index.html" />
+        <option value="$PROJECT_DIR$/slick.dataview.js" />
+        <option value="$PROJECT_DIR$/tests/plugins/autotooltips.js" />
+        <option value="$PROJECT_DIR$/slick.core.js" />
+        <option value="$PROJECT_DIR$/examples/example-group-header.html" />
+        <option value="$PROJECT_DIR$/examples/example3-editing.html" />
+        <option value="$PROJECT_DIR$/examples/example-autotooltips.html" />
+        <option value="$PROJECT_DIR$/tests/plugins/autotooltips.html" />
+        <option value="$PROJECT_DIR$/tests/grid/grid.js" />
+        <option value="$PROJECT_DIR$/slick.grid.js" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
+    <option name="width" value="1920" />
+    <option name="height" value="1054" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SlickGrid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SlickGrid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="X-SlickGrid" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SlickGrid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="X-SlickGrid" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SlickGrid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="X-SlickGrid" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="liveDemo" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SlickGrid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="X-SlickGrid" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SlickGrid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="X-SlickGrid" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="options.lastSelected" value="preferences.sourceCode.HTML" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="LayoutCode.rearrangeEntriesJavaScript" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="editor&#9;null&#9;null" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="FullScreen" value="false" />
+    <property name="LayoutCode.rearrangeEntries" value="true" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="257" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="259" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="262" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1057" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="257" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="259" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="262" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1057" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/liveDemo" />
+      <recent name="$PROJECT_DIR$/examples" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <list size="0" />
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="af8b17d1-8ce5-467e-a4aa-d87b3dbc94e2" name="Default" comment="" />
+      <created>1396443356171</created>
+      <updated>1396443356171</updated>
+      <workItem from="1396443356608" duration="48815000" />
+      <workItem from="1396880435487" duration="6976000" />
+      <workItem from="1396894585208" duration="34000" />
+      <workItem from="1396895314603" duration="430000" />
+      <workItem from="1396977860444" duration="2470000" />
+      <workItem from="1397137719207" duration="349000" />
+      <workItem from="1397149586329" duration="2403000" />
+      <workItem from="1397477527017" duration="31845000" />
+      <workItem from="1397755166837" duration="1929000" />
+      <workItem from="1398190584766" duration="108000" />
+      <workItem from="1398190717351" duration="3333000" />
+      <workItem from="1398254090104" duration="55000" />
+      <workItem from="1398278208028" duration="576000" />
+      <workItem from="1398343261628" duration="35000" />
+      <workItem from="1398369025237" duration="2929000" />
+      <workItem from="1398444888883" duration="9584000" />
+      <workItem from="1398688786473" duration="22492000" />
+      <workItem from="1399032573634" duration="22582000" />
+      <workItem from="1399291934404" duration="47584000" />
+      <workItem from="1399472173876" duration="1425000" />
+      <workItem from="1399475360845" duration="704000" />
+    </task>
+    <task id="LOCAL-00001" summary="Comment Removed">
+      <created>1398454010253</created>
+      <updated>1398454010253</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add suport on columnpicker to collapse">
+      <created>1398456536120</created>
+      <updated>1398456536121</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="206658000" />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="22" width="1920" height="1054" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952183" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952183" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952183" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952183" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952183" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973376" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952183" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952183" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32952183" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952183" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952183" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952183" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952183" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952183" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952183" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <MESSAGE value="Comment Removed" />
+    <MESSAGE value="Add suport on columnpicker to collapse" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add suport on columnpicker to collapse" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/E4X.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5738758" vertical-offset="1429" max-vertical-offset="4740">
+          <caret line="131" column="14" selection-start-line="131" selection-start-column="14" selection-end-line="131" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33297643" vertical-offset="274" max-vertical-offset="2865">
+          <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33297643" vertical-offset="11404" max-vertical-offset="14055">
+          <caret line="781" column="17" selection-start-line="781" selection-start-column="17" selection-end-line="781" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33297643" vertical-offset="24454" max-vertical-offset="57180">
+          <caret line="1651" column="0" selection-start-line="1651" selection-start-column="0" selection-end-line="1651" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liveDemo/controls/slick.pager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2400">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1399461046000" expanded="false" signature="2201:2213" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.70394737" vertical-offset="288" max-vertical-offset="2190">
+          <caret line="62" column="127" selection-start-line="62" selection-start-column="127" selection-end-line="62" selection-end-column="127" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>sass-stdlib</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>SlickGrid</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+
